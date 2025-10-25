@@ -23,7 +23,7 @@ Requirement Analysis is essential to ensuring a successful software development 
    Teams gain a clear and shared understanding of user needs, reducing the risk of incorrect assumptions and costly rework.
 
 2. **Supports Accurate Planning and Estimation**
-   With well-defined requirements, the project team can estimate time, cost, and resources more effectively, leading to improved project timeline and budgeting.
+   With well-defined requirements, the project team can estimate time, cost, and resources more effectively, leading to improved project timelines and budgeting.
 
 3. **Enhances Product Quality and User Satisfaction**
    Ensuring requirements align with user needs leads to a system that performs well and satisfies the users, increasing overall project success.
@@ -39,7 +39,7 @@ Requirement Analysis involves several important activities that help ensure a co
   Using techniques like interviews, workshops, questionnaires, and observation to uncover detailed and hidden requirements.
 
 * **Requirement Documentation**
-  Recording all gathered requirements in a structured format such as Software Requirements Specifications (SRS), ensuring clarity and traceability.
+  Recording all gathered requirements in a structured format, such as Software Requirements Specifications (SRS), ensuring clarity and traceability.
 
 * **Requirement Analysis and Modeling**
   Studying and refining requirements to resolve conflicts, check feasibility, and represent them visually using models like diagrams or flowcharts.
@@ -57,7 +57,7 @@ Examples for a **Hotel Booking Management System** based on the case study:
 
 * Users must be able to search for hotels based on location, dates, and number of guests.
 * The system must check room availability in real time.
-* Users must be able to create and manage bookings including modification and cancellation.
+* Users must be able to create and manage bookings, including modification and cancellation.
 * The system must support secure user registration and login.
 * The platform must generate booking confirmations and send them via email or in-app notifications.
 * Admin users must be able to add, update, or remove hotel listings and room details.
@@ -68,10 +68,10 @@ Non-functional Requirements define how the system performs rather than what it d
 
 Examples for the **Hotel Booking Management System**:
 
-* The system should handle a large number of concurrent user requests especially during peak travel seasons.
+* The system should handle a large number of concurrent user requests, especially during peak travel seasons.
 * Search results should be displayed within 2–3 seconds.
 * The system must remain available 99.9% of the time to support global users.
-* User data including payment information must be protected through strong encryption and secure transmission protocols.
+* User data, including payment informatio,n must be protected through strong encryption and secure transmission protocols.
 * The application interface should be intuitive and responsive across web and mobile devices.
 * The system should scale efficiently as the number of hotels and users increases.
 
@@ -91,4 +91,27 @@ Use Case Diagrams visually represent the interactions between users (actors) and
 The diagram below shows key actors and interactions for the hotel booking system:
 
 ![Hotel Booking Use Case Diagram](alx-booking-uc.png)
+
+## Acceptance Criteria
+
+
+**Acceptance Criteria** are the specific conditions that a software product must meet to be accepted by a user, customer, or other stakeholders. They provide a clear, testable description of what the system must do and help ensure that requirements are implemented correctly.
+
+
+### Importance of Requirement Analysis
+- Ensures clarity and shared understanding between stakeholders and developers
+- Provides a measurable way to verify that a feature meets user expectations
+- Reduces ambiguity in requirements, preventing miscommunication
+- Helps prioritize and plan testing activities
+
+
+### Example: Checkout Feature in Booking Management System
+For a checkout feature, acceptance criteria could include:
+- Users must be able to review selected rooms and booking details before payment.
+- Users must be able to enter payment information securely.
+- System should validate payment information and show error messages for invalid inputs.
+- Confirmation of successful payment should be displayed and sent via email.
+- Booking should be recorded in the system immediately after successful payment.
+
+
 
